@@ -1,0 +1,28 @@
+<html>
+  <body style="background-color: blue">
+    <title>My Info</title>
+    <h1 style="text-align:center">Kyle Hernandez Digital Portfolio - My Info</h1>
+     <a style="color:black" href="index.html">Return to Home!</a>
+    <p>My name is Kyle Hernandez. I am 16 years old and a junior at AHS. I have programmed for 5 years</p>
+  </body>
+</html>
+
+<style>
+  p {
+      background-color: blue;
+      color: white;
+      font-family: Arial;
+      font-size: 20px;
+  }
+  h1 {
+      font-family: Arial;
+      color: black;
+      font-size: 20px;
+  }
+  a {
+      margin-left: 900px;
+      font-size: 20px;
+      font-family: Arial;
+      font-weight: bold;
+  }
+ </style>
