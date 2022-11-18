@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>ISP - Getting Started</title>
+  <style>
+    h1 {
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	margin-left: 60px;
+	font-weight: bold;
+	text-align: center;
+    }
+    a {
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+    }
+  </style>
+  <body style="background-color: orange">
+    <h1>Kyle Hernandez ISP - Getting Started</h1>
+    <a href="https://codermerlin.com/users/kyle-hernandez/Digital%20Portfolio/index.html">Return To Home!</a>
+    <h1>ISP 2022-2023: Time Managment</h1>
+    <h1>Our ISP will be developing an app/website to help students with time management and productivity. Students will be able to input any assignments as well as how long they plan to work on each will allow the website to create a personalized schedule.</h1>
+    <h1>ISP 2022-2023: Time Management ISP Group Members</h1>
+    <a href="https://codermerlin.com/users/myoram-langwang/Digital%20Portfolio/CS-II/Projects/ISP/index.html">Myoram Lang Wang</a>
+    <h1>George Winters</h1>
+    <h1>Mason Williams</h1>
+    <h1>Matthew Roman</h1>
+  </body>
+  </html>
