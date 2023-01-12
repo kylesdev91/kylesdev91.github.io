@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <title>ISP Journal 2-Jan-2023</title>
+  <body style="background-color: limegreen">
+    <style>
+      h1 {
+	  font-size: 20px;
+	  font-family: Arial;
+	  color: white;
+	  background-color: black;
+	  font-weight: bold;
+      }
+      a {
+	  font-size: 20px;
+	  font-family: Arial;
+	  color: white;
+	  background-color: black;
+	  font-weight: bold;
+	  
+      }
+      p {
+	  font-size: 20px;
+	  font-family: Arial;
+	  color: white;
+	  background-color: black;
+	  font-weight: bold;
+	  
+      }
+    </style>
+    <h1 style="text-align:center">Kyle Hernandez ISP Journal: 2-Jan-2023</h1>
+    <a href="https://www.codermerlin.com/users/kyle-hernandez/Digital%20Portfolio/index.html">Return to Home!<a>
+    <a href="https://www.codermerlin.com/users/kyle-hernandez/Digital%20Portfolio/CS-II/Projects/ISP/Journal.html">Return to ISP Journals!</a>
+	<h1>Technical challenges?</h1>
+	<br>
+	<h1>What is a (Software) Developer Enginneer?</h1>
+	<p>Software engineers focous on applying the principles of engineering to software development. Their role incldes analyzing and modifying exisiting software as well as designing, constructing and testing end-user applications that meet user needs - all through software programming languages. The role also focouses on the complex and large software systems that make up the cores systems for an organizations. There are many roles under the umbrella of software engineering, but the two main ones are Applications Software Developer and Systems Software Developer. Software engineers also tend too specalize in specific areas including databases, cloud, or operating systems such as iOS and Android. While you can expect the software engineer job description to be unique to each individual organization, there are common requirements that will be expected no matter where you work.</p> 
+	
+	<h1>What is a QA Engineer?</h1>
+	<p>QA engineer responsibilities inclcude designing and implementing tests, debugging and defining corrective actions. You willalso review system requirements and track quality assurance metrics.Our ideal canadite will be responsible for conducting tests before product lanuches too ensure software runs smoothly and meets client needs, while being cost-effective. Their role includes proven work experience in softtware development. Proven work experience in software quality assurance. Strong knowledge of software QA methodologies, tools and poses Experience in writing clear, concise and compprehensive test plans and test plans and test cases. Experience with performance and or/security solid knowledge of SQL and scriptint experience working with performance and/or security testing is a plus BS/MS degree in Computer Science, Engineering or a related subject.</p>
+
+	<h1>What is a Project Manager?</h1>
+	<p>Project Management the objective is to complete a project successfully, while remaining on time and within budget. Project management is an umbrella term which can actually refer to three different types of management: Project Management, Portfolio Management, and Program management. Time mangaement and approval: In order to ensure that the project remains on track, many project managers turn to timesheets or a project management software that allows them to see how their team is spending their time. 
+	  <br>
+	  <h1>What is a Product Manager?</h1>
+	<p>A product manager is the person who identifies the customer need the larger business objectives that a product or feature will fufill, articulates, what success looks like for a product, and rallies a team to turn taht vision into a reality. While a product manager defines the direction of the product through research, vision-setting, alignment, and prioritization, the product owner should work more closely with the development team to execute against the goals that the product manager helps to define.
+	  <br>
+	  <h1>What is a Release Enginneer?</h1>
+	  <p>Release engineers work with software engineers (SWEs) in product development and SREs to define all the steps required to release software - from how the software is stored in the source code repository, to build rules for compilation, to how testing, packiging, and deployment are conducted. Release engineering is a realtively new and fast-growing discipline of software engineering that can be concisely described as building and delivering software.
+  </body>
+  </html>
