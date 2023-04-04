@@ -101,11 +101,44 @@
           let assignmentName = prompt("Enter the assignment name:");
           let studyDays = parseInt(prompt("Enter the number of days you plan to study:"));
           let dueDate = prompt("Enter the due date (YYYY-MM-DD):");
+
+          markCalendar(assignmentName, studyDays, dueDate);
       });
 
       /* Mark the calendar with due dates and study days */
       function markCalendar(assignmentName, studyDays, dueDate) {
-          // Implementation of the markCalendar function
+          // Updated implementation of the markCalendar function
+          // Change due date to red font and study days to green font
+	  // Parse the due date into a Date object
+          let dueDateObj = new Date(dueDate);
+          let currentDateObj = new Date(dueDateObj);
+
+          // Iterate through the study days and mark them in green
+          for (let i = 0; i < studyDays; i++) {
+              currentDateObj.setDate(dueDateObj.getDate() - i);
+              let cell = getCellByDate(currentDateObj);
+              if (cell) {
+                  cell.style.color = "green";
+              }
+          }
+
+          // Mark the due date cell in red and add assignment name as a tooltip
+          let dueDateCell = getCellByDate(dueDateObj);
+          if (dueDateCell) {
+              dueDateCell.style.color = "red";
+              dueDateCell.title = assignmentName;
+          }
+      }
+
+      /* Get the table cell by date */
+      function getCellByDate(dateObj) {
+          let month = dateObj.getMonth();
+          let date = dateObj.getDate();
+
+          if (month === currentMonth.getMonth()) {
+              return calendarBody.children[date - 1];
+          }
+          return null;
       }
     </script>
   </body>
