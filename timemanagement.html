@@ -21,23 +21,88 @@
           text-align: center;
           font-size: 16px;
       }
+
       button {
-	  font-size: 16px;
-	  padding: 5px 10px;
-	  margin: 10px;
-	  background-color: #4caf50;
-	  color: white;
-	  border: none;
-	  border-radius: 5px;
-	  cursor: pointer;
+          font-size: 16px;
+          padding: 5px 10px;
+          margin: 10px;
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
       }
     </style>
   </head>
   <body>
     <h1>Time Management</h1>
     <button id="prevMonthBtn">Prev Month</button>
-        <button id="nextMonthBtn">Next Month</button>
+    <button id="nextMonthBtn">Next Month</button>
+    <button id="addAssignmentBtn">Add Assignment</button>
     <table>
+      <thead>
+	<tr>
+	  <th colspan="7" id="monthName"></th>
+	</tr>
+	<tr>
+	  <th>Sun</th>
+	  <th>Mon</th>
+	  <th>Tue</th>
+	  <th>Wed</th>
+	  <th>Thu</th>
+	  <th>Fri</th>
+	  <th>Sat</th>
+	</tr>
+      </thead>
+      <tbody id="calendarBody">
+      </tbody>
     </table>
+
+    <script>
+      let currentMonth = new Date();
+      let calendarBody = document.getElementById("calendarBody");
+      let monthName = document.getElementById("monthName");
+
+      function displayCalendar() {
+          let firstDay = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), 1);
+          let lastDay = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0);
+          let daysInMonth = lastDay.getDate();
+
+          monthName.innerText = new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" }).format(currentMonth);
+
+          calendarBody.innerHTML = "";
+
+          for (let i = 1; i <= daysInMonth; i++) {
+              let day = document.createElement("td");
+              day.innerText = i;
+              calendarBody.appendChild(day);
+
+              if (i % 7 === 0) {
+                  let row = document.createElement("tr");
+                  row.appendChild(day);
+                  calendarBody.appendChild(row);
+              }
+          }
+      }
+
+      displayCalendar();
+
+      document.getElementById("prevMonthBtn").addEventListener("click", function() {
+          currentMonth.setMonth(currentMonth.getMonth() - 1);
+          displayCalendar();
+      });
+
+      document.getElementById("nextMonthBtn").addEventListener("click", function() {
+          currentMonth.setMonth(currentMonth.getMonth() + 1);
+          displayCalendar();
+      });
+
+      document.getElementById("addAssignmentBtn").addEventListener("click", function() {
+          let assignmentName = prompt("Enter the assignment name:");
+          let studyDays = parseInt(prompt("Enter the number of days you plan to study:"));
+          let dueDate = prompt("Enter the due date (YYYY-MM-DD):");
+      });
+
+    </script>
   </body>
 </html>
