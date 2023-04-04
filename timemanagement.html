@@ -3,6 +3,9 @@
   <head>
     <title>Time Management</title>
     <style>
+      .study-day {
+	  background-color: #d5f7d8; /* New background color for study days */
+      }
       table {
           border-collapse: collapse;
           margin: 10px;
@@ -108,13 +111,15 @@
           let currentDateObj = new Date(dueDateObj);
 
           // Iterate through the study days and mark them in green
-          for (let i = 0; i < studyDays; i++) {
-              currentDateObj.setDate(dueDateObj.getDate() - i);
-              let cell = getCellByDate(currentDateObj);
-              if (cell) {
-                  cell.style.color = "green";
-              }
-          }
+	  for (let i = 0; i < studyDays; i++) {
+	      currentDateObj.setDate(dueDateObj.getDate() - i);
+	      let cell = getCellByDate(currentDateObj);
+	      if (cell) {
+		  cell.style.color = "green";
+		  cell.classList.add("study-day"); // Add the new CSS class to the table cell
+	      }
+	  }
+	  
 
           // Mark the due date cell in red and add assignment name as a tooltip
           let dueDateCell = getCellByDate(dueDateObj);
