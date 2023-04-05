@@ -19,4 +19,4 @@ Kyle Hernandez
 	https://kylesdev91.github.io/
 	
 	The ISP is located here for the Time Management
-	https://codermerlin.academy/users/george-winters/Digital%20Portfolio/calendarnew.html
+	https://codermerlin.academy/users/george-winters/Digital%20Portfolio/timemanagement.html
