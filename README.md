@@ -10,7 +10,7 @@ Ibrahim Deir
 	https://www.codermerlin.com/users/ibrahim-deir/Digital%20Portfolio/index.html
 Mason Williams
 	Release Manager
-	https://www.codermerlin.com/users/mason-williams/Digital%20Portfolio/index.html
+	https://www.codermerlin.com/users/mason-williams/Digital%20Portfolio/CS-II/Projects/ISP/Journal.html
 George Winters
 	QA Engineer
 	https://www.codermerlin.com/users/george-winters/Digital%20Portfolio/index.html
