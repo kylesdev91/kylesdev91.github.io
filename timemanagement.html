@@ -36,13 +36,14 @@
           border-radius: 5px;
           cursor: pointer;
       }
+      
     </style>
   </head>
   <body>
     <h1>Time Management</h1>
     <button id="prevMonthBtn">Prev Month</button>
     <button id="nextMonthBtn">Next Month</button>
-    <button id="addAssignmentBtn">Add Assignment</button>
+    <button id="addAssignmentBtn">Add Ass.</button>
     <table>
       <thead>
 	<tr>
@@ -93,19 +94,21 @@
 
       document.getElementById("prevMonthBtn").addEventListener("click", function() {
           currentMonth.setMonth(currentMonth.getMonth() - 1);
+	  alert("Prev Month was clicked")
           displayCalendar();
       });
 
       document.getElementById("nextMonthBtn").addEventListener("click", function() {
           currentMonth.setMonth(currentMonth.getMonth() + 1);
+	  alert("Next Month was clicked")
           displayCalendar();
-      });
-
-      document.getElementById("addAssignmentBtn").addEventListener("click", function() {
-          let assignmentName = prompt("Enter the assignment name:");
-          let studyDays = parseInt(prompt("Enter the number of days you plan to study:"));
-          let dueDay = parseInt(prompt("Enter the due day of the month:"));
-
+});
+          document.getElementById("addAssignmentBtn").addEventListener("click", function() {
+	  let assignmentName = prompt("Enter the assignment name:");		       
+	  let studyDays = parseInt(prompt("Enter the number of days you plan to study:"));
+	  let dueDay = parseInt(prompt("Enter the due day of the month:"));
+         			       
+    			       
           // Set the due date based on the current month displayed and the input day
           let dueDateObj = new Date(currentMonth.getFullYear(), currentMonth.getMonth(), dueDay);
           let currentDateObj = new Date(dueDateObj);
