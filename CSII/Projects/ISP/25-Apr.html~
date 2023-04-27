@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<title>ISP Journal 25-Apr-2023 (Planning)</title>
+<body style="background-color: limegreen">
+  <style>
+    h1 {
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+    }
+    a {
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+    }
+    p {
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+    }
+  </style>
+    <a href="https://www.codermerlin.com/users/kyle-hernandez/Digital%20Portfolio/index.html">Return To Home!</a>
+  <br>
+  <a href="https://www.codermerlin.com/users/kyle-hernandez/Digital%20Portfolio/CS-II/Projects/ISP/Journal.html">Return to ISP Journals!</a>
+  <br>
+  <h1><a href="https://github.com/Myoram1/CSAllenTimeManagment">Time Managment Github Repo</h1>
+  <h1>What was our plan by the end of the week?</h1>
+  <p>Our plan was to adjust the background of the app. Make the calendar the right size and make sure it shows the accurate dates of every month when clicked upon the previous and next month. We make a prompt for people to add the assingment, and when the day has been selected for the amount it will color in green and red. Last, we made a timer to set to focus and have a textbox to set the timer to how many minutes, and a start timer to start the timer. We will be trying to make a sound effect or show a dragon when times up but we have a message that shows a Times Up! msg when times up.</p>
+  
+  <h1>The Github Issues,(Feature, Bug, Other Task)?</h1>
+  <p>Bugs: Assignemnts vanishing, study days overflowing into other months</p>
+  <p>Enhancement: Stop Timer Button, add music, About Page, Push Notifications Support, Homepage, Focus Timer</p>
+  <p>Bugs and Enhancemnt: Functionality/Quality Testing</p>
+  <p>Documentation: GAANT Chart updated</p>
+  
+  <h1>What do I have to achieve and how to achieve it?</h1>
+  <p>My plan is to update the journal for this week, and help out with printing out console logs whenever the 3 buttons clicked, as well as adjusting some styles to the buttons. My role mainly for this week is adjust the functionality and show pop up alerts what the user types in the prompt to show up after they are done or output it on to the screen.</p>
+  
+  <h1><a href="https://github.com/Myoram1/CSAllenTimeManagment/issues">The Github Issues Link for Time Management:</h1>
+
