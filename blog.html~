@@ -1,0 +1,34 @@
+<html lang="en">
+  <body style="background-color: limegreen">
+    <title>Computer Science II Blogs</title>
+    <style>
+       p {
+	  font-size: 20px;
+	  font-family: Arial;
+	  color: white;
+	  background-color: black;
+	  font-weight: bold;
+	  
+       }
+       h1 {
+	  font-size: 20px;
+	  font-family: Arial;
+	  color: white;
+	  background-color: black;
+	  font-weight: bold;
+	  
+      }
+   
+</style>
+<h1 class="align-items: center">Computer Science II Blogs</h1>
+<h1><a href="https://codermerlin.academy/users/kyle-hernandez/Digital%20Portfolio/index.html">Go back to homepage!</a></h1>
+    <p class="text-align: left">Kyle Hernandez</p>
+    <p class="text-align: left">4-May-2023</p>
+    <br>
+    <h1 style="color: red">Can Students Bring Only Chromebooks?</h1>
+    <p>That rule is kind of strictly concerning, because if people only bring chromebooks, then it would be kind of challenging. For the mac people, they will probably lose the computer, but it is a beter way to text with parents if something bad happens rather than use the chromebook, can't text there.
+    <p class="text-align: left">5-May-2023</p>
+    <br>
+     
+    <h1 style="color: blue">Should Government Regulate AI?<h1>
+    <p>The people who founded the AI should regulate the AI. I mean the bottom line is some people will use the AI for different reasons. I know some people have the AI for snapchat and that is kind of an issue because if you have the snapchait premium will remove it. The AI is also for free answers/</p>
