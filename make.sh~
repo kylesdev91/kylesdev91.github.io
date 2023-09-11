@@ -1,0 +1,12 @@
+#!/bin/bash
+set -eu
+source=Pigeonhole.tex
+compiled=Pigeonhole.pdf
+target="$HOME/www/Digital Portfolio/DM/Journals/$compiled"
+pdflatex -halt-on-error  $source
+cp "$compiled" "$target"
+echo "Copying $compiled -> $target"
+chmod a+r "$target"
+echo "DONE: $source -> $compiled -> $target"
+
+
